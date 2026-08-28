@@ -1,0 +1,89 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Datasets and generated artifacts
+data/
+datasets/
+artifacts/
+outputs/
+results/
+checkpoints/
+weights/
+runs/
+logs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+
+# Model and array files
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+*.pb
+*.pt
+*.pth
+*.safetensors
+*.tflite
+*.npy
+*.npz
+
+# Downloaded archives
+*.7z
+*.bz2
+*.gz
+*.rar
+*.tar
+*.tgz
+*.zip
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+~$*
