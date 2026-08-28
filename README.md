@@ -8,7 +8,7 @@ Projects will be listed here as they are added.
 
 | Project | Description | Stack |
 | --- | --- | --- |
-| _Coming soon_ | The first project is on its way. | TBD |
+| [TerraClass](projects/terraclass/) | Satellite land-use classification with a custom CNN and ResNet18 transfer learning. | PyTorch, TorchVision |
 
 ## Suggested structure
 

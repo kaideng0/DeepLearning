@@ -1,0 +1,7 @@
+# For a CUDA-specific PyTorch build, follow https://pytorch.org/get-started/locally/
+# before installing this file.
+torch>=2.3
+torchvision>=0.18
+matplotlib>=3.7
+numpy>=1.24
+Pillow>=9.5
