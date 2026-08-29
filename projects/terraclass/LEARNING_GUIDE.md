@@ -2,6 +2,8 @@
 
 This guide explains the project in the order data flows through it. Keep the source files open and run small experiments as you read.
 
+If PyTorch is new to you, begin with `notebooks/00_pytorch_basics.ipynb`. It introduces tensors, CUDA devices, autograd, neural-network modules, data loaders, and a complete small training loop before this guide applies those concepts to TerraClass.
+
 ## 1. Start with the data
 
 Open `src/terraclass/data.py`.

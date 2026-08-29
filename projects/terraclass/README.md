@@ -25,6 +25,8 @@ By working through this project, you will use:
 
 Read [LEARNING_GUIDE.md](LEARNING_GUIDE.md) alongside the source code for a guided tour.
 
+For layer shapes, parameter-count formulas, training-memory implications, and the exact SimpleCNN/ResNet18 totals, see [references/MODEL_ARCHITECTURE.md](references/MODEL_ARCHITECTURE.md).
+
 ## Dataset
 
 EuroSAT contains the following classes:
@@ -169,7 +171,10 @@ Run both experiments before completing this table. Do not report validation scor
 ```text
 terraclass/
 ├── notebooks/
+│   ├── 00_pytorch_basics.ipynb
 │   └── 01_explore_eurosat.ipynb
+├── references/
+│   └── MODEL_ARCHITECTURE.md
 ├── src/terraclass/
 │   ├── checkpoints.py
 │   ├── cli.py

@@ -94,6 +94,8 @@ def train_command(args: argparse.Namespace) -> None:
         raise ValueError(
             "When resuming, --output-dir must be the original run directory containing best.pt."
         )
+    if torch.cuda.is_available():
+        print(f"CUDA is available: {torch.cuda.get_device_name(0)}")
     print(f"Using device: {device}")
 
     data = make_dataloaders(
