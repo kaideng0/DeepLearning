@@ -9,6 +9,7 @@ Projects will be listed here as they are added.
 | Project | Description | Stack |
 | --- | --- | --- |
 | [TerraClass](projects/terraclass/) | Satellite land-use classification with a custom CNN and ResNet18 transfer learning. | PyTorch, TorchVision |
+| [SupportRouter](projects/support-router/) | Banking-support intent routing with a scratch Transformer, DistilBERT, and confidence-aware human escalation. | PyTorch, Transformers |
 
 ## Suggested structure
 

@@ -1,0 +1,7 @@
+# Install the appropriate CUDA build of PyTorch first when using an NVIDIA GPU:
+# https://pytorch.org/get-started/locally/
+torch>=2.6
+transformers>=5.0
+datasets>=4.0
+matplotlib>=3.8
+numpy>=1.26
